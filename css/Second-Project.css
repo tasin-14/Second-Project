@@ -1,0 +1,369 @@
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.section{
+    height: 120vh;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+
+}
+.logo a{
+    font-size: 1.4rem;
+    color: #2f2e41;
+    font-weight: bold;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, .2);
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    letter-spacing: 1;
+   
+}
+.searcharea{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 170px;
+    height: 45px;
+    border-radius: 10% 10% 10% 10%/50% 50% 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: px;
+    height: 45px;
+    background-color: white;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 30px rgba(167,158,245,.2);
+    box-sizing: border-box;
+    z-index: 1;
+    border: 1px solid rgba(167,158,245,.2);
+}
+.searchbox .inputtext{
+    width: 100px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #2f2e41;
+    font-size: 1rem;
+    padding: 0px 10px;
+    
+}
+.searchbox .inputtext::placeholder{
+    color: #1D1D1D;
+    font-weight: 400px;
+    letter-spacing: 2px;
+    font-size: .8rem;
+
+}
+.sec1{
+    position: absolute;
+    right: 15%;
+    top: 50%;
+    transform:translate(-35%,-20%);
+}
+.sec1 img{
+    height: 400px;
+}
+
+.sec1btn{
+    top: 70%;
+    right: 5%;
+    position: absolute;
+    font-size: 28px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
+    line-height: 60px;
+    color: #3d3d3A;
+      
+    
+}
+.sec1btn h1{
+    letter-spacing: 5px;
+}
+span{
+    color: #7a72ff;
+}
+.btn{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 90px;
+   outline: none;
+   border: none;
+   height: 35px;
+   width: 120px;
+   border-radius: 10% 10% 10% 10%/50% 50% 50% 50%;
+   font-size: 18px ;
+   color:white;
+   margin-top: 10px;
+   background-color: #2f2e41;
+   box-shadow: 2px 2px 30px rgba(0, 0,0,.4);
+
+}
+.btn:hover{
+   background-color: #7a72ff;
+   transform: scale(1.05);
+   transition: all .5s ease;
+   cursor: pointer;
+
+}
+.icon1 a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    color: #1D1D1D;
+    font-size: 20px;
+    
+}
+.icon1{
+    top: 50%;
+    left: 30px;
+    position: fixed;
+    transform: translate(-50%);
+    border-radius: 25%;
+    background-color:white;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .2);
+    padding: 5px 5px;
+width: 30px;
+height: 160px;
+
+    
+  
+}
+.icon1 a:hover{
+    color: #7a72ff;
+    transform: scale(1.3);
+    transition: all .5s ease;
+}
+.sec23{
+  width: 85%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ margin: 20px auto;
+ position: relative;
+ background-size: 1000px;
+ border-radius: 10px;
+ background-color: white;
+ box-shadow: 2px 2px 30px rgba(0, 0, 0, .2);
+ margin-top: 150px;
+}
+.productbox img{
+    width: 180px;
+
+}
+.sec23 h1{
+    margin-top: 30px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, .2);
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #323543;
+    
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:40px 0px;
+    width: 100%;
+    
+}
+.productbox{
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 10px;
+   
+
+}
+.productbox a{
+    text-decoration: none;
+    color: #2f2e41;
+    margin-top: 10px;
+    font-size: 1rem;
+
+}
+.productbox p{
+    color: #3d3d3A;
+    margin-top: 20px;
+    letter-spacing:.5;
+}
+.buybtn{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    bottom: -20px;
+    transform: translate(-50%);
+    border-radius: 10% 10% 10% 10%/50% 50% 50% 50%;
+    background: linear-gradient(120deg, #6b60ec, 50%, #a166f4);
+    color: white;
+    animation: fade .2s;
+    display: none;
+
+}
+.productbox:hover .buybtn{
+    display: flex;
+    
+}
+.productbox:hover{
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .2);
+    background-color: white;
+    transition: .2s ease;
+
+}
+
+.sec3{
+    width: 85%;
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    padding: 30px;
+}
+.about{
+    width: 80%;
+}
+.about img{
+    width: 100%;
+    height: 100%;
+}
+.about h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1D1D1D;
+    text-align: center;
+
+}
+.about h4{
+    font-size: 1.7rem;
+    font-weight:400;
+    color: #1D1D1D;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about p{
+    font-size: .9rem;
+    font-weight:10px;
+    color: #1D1D1D;
+    text-align: center;
+}
+.not{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 2px 2px 30px rgba(0, 0, 0, .3);
+}
+.not h1{
+    font-size: 2rem;
+    color: #2f2e41;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, .2);
+  
+}
+.notinput{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .2);
+    border-radius: 10% 10% 10% 10%/50% 50% 50% 50%;
+    height: 60px;
+    padding: 5px 15px;
+    margin-top: 30px;
+
+}
+.notinput input{
+    width: 80%;
+    height: 100%;
+    background-color:transparent;
+    outline: none;
+    border: none;
+}
+.notbtn{
+    width: 120px;
+    height: 40px;
+    background-color:#2f2e41;
+    border-radius: 20px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .2);
+
+}
+.notbtn:hover{
+    
+    background-color: #7a72ff;
+    transition: all .3s ease-in;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    padding-top:10px;
+
+}
+footer p{
+    color: whitesmoke;
+    font-size: .9rem;
+    text-align: center;
+}
+@media(max-width:768px){
+    .logo a{
+        left: 16px;
+    }
+    .searcharea{
+        right: 16px;
+    }
+}
+@media (max-width: 480px) {
+    .logo a {
+        font-size: 1rem;
+    }
+
+    .searcharea {
+        width: 120px;
+        height: 35px;
+    }
+
+    .sec1 img {
+        width: 100%;
+    }
+
+    .sec1btn {
+        font-size: 18px;
+    }
+
+    .productbox {
+        width: 100%;
+    }
+
+    .not h1 {
+        font-size: 1.5rem;
+    }
+    .section{
+        min-height: 50vh;
+    }
+}
